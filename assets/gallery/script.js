@@ -68,31 +68,27 @@
         };
     }
 
-    function updateMasonry(event) {
+    function updateMasonry(event){
         var $section = $(event.target);
         if (typeof $.fn.masonry !== 'undefined') {
             $section.outerFind('.mbr-gallery').each(function() {
-                var $msnr = $(this).find('.mbr-gallery-row');
-                $msnr.imagesLoaded().progress(function() {
-                    $msnr.masonry({
-                        itemSelector: '.mbr-gallery-item:not(.mbr-gallery-item__hided)',
-                        percentPosition: true,
-                        horizontalOrder: true
-                    });
-
-                    // reload masonry (need for adding new or re-sort items)
+                var $msnr = $(this).find('.mbr-gallery-row').masonry({
+                    itemSelector: '.mbr-gallery-item:not(.mbr-gallery-item__hided)',
+                    percentPosition: true,
+                    horizontalOrder: true
+                });
+                // reload masonry (need for adding new or re-sort items)
+                $msnr.masonry('reloadItems');
+                $msnr.on('filter', function() {
                     $msnr.masonry('reloadItems');
-                
-                    $msnr.on('filter', function() {
-                        $msnr.masonry('reloadItems');
-                        $msnr.masonry('layout');
-                        // update parallax backgrounds
-                        $(window).trigger('update.parallax');
-                    }.bind(this, $msnr));
-                    $msnr.imagesLoaded().progress(function() {
-                        $msnr.masonry('layout');
-                    });
-                })
+                    $msnr.masonry('layout');
+                    // update parallax backgrounds
+                    $(window).trigger('update.parallax');
+                }.bind(this, $msnr));
+                // layout Masonry after each image loads
+                $msnr.imagesLoaded().progress(function() {
+                    $msnr.masonry('layout');
+                });
             });
         }
     };
