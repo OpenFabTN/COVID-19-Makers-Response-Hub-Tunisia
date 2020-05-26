@@ -1,4 +1,21 @@
-<!DOCTYPE html>
+<?php
+function get_url($url) {
+	$ch = curl_init();
+	curl_setopt($ch,CURLOPT_URL,$url);
+	curl_setopt($ch,CURLOPT_RETURNTRANSFER,1); 
+	curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,5);
+	$content = curl_exec($ch);
+	curl_close($ch);
+	return $content;
+}
+
+$data_json = get_url("http://api.oshw.tn/covid-initiative/getdata.php");
+$data_array = json_decode($data_json, true);
+
+/* variables */
+$date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
+
+?><!DOCTYPE html>
 <html  >
 <head>
   <!-- Site made with Mobirise Website Builder v4.12.2, https://mobirise.com -->
@@ -99,7 +116,7 @@
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">REJOINDRE LE RESEAU</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">*Dernier récapitulatif de la production datée le 25/04/2020
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">*Dernier récapitulatif de la production datée le <?php echo $date ?>
 </h3>
 
             </div>
@@ -350,7 +367,7 @@
 
     <div class="container">
         <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">Bilan de Production&nbsp;</h2>
-        <h3 class="mbr-section-subtitle mbr-fonts-style display-5">Dernier récapitulatif de la production : 25/04/2020</h3>
+        <h3 class="mbr-section-subtitle mbr-fonts-style display-5">Dernier récapitulatif de la production : <?php echo $date ?></h3>
 
         <div class="container pt-4 mt-2">
             <div class="media-container-row">
