@@ -14,6 +14,13 @@ $data_array = json_decode($data_json, true);
 
 /* variables */
 $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
+$units = $data_array["fields"]["Unités produites"];
+$places = $data_array["fields"]["Lieux de fabrication"];
+$volunteers = $data_array["fields"]["Volentaires"];
+$delivered_hospitals = $data_array["fields"]["Hôpital livrés"];
+$visors = $data_array["fields"]["Visières"];
+$connectors = $data_array["fields"]["Connecteurs"];
+$protective_suits = $data_array["fields"]["Combinaisons"];
 
 ?><!DOCTYPE html>
 <html  >
@@ -116,7 +123,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
                 <h2 class="align-center pb-3 mbr-fonts-style display-2">REJOINDRE LE RESEAU</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">*Dernier récapitulatif de la production datée le <?php echo $date ?>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">*Dernier récapitulatif de la production datée le <?php echo $date; ?>
 </h3>
 
             </div>
@@ -138,8 +145,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
                         <span class="mbr-iconfont mbri-protect" style="color: rgb(231, 0, 19); fill: rgb(231, 0, 19);"></span>
                     </div>
                     <div class="card-box media-body">
-                        <h4 class="card-title py-3 mbr-fonts-style display-5"><strong>
-                            +35 000&nbsp;</strong></h4>
+                        <h4 class="card-title py-3 mbr-fonts-style display-5"><strong><?php echo $units; ?></strong></h4>
                         <p class="mbr-text mbr-fonts-style display-7"><strong>
                            Unités produites</strong></p>
                     </div>
@@ -152,8 +158,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
                         <span class="mbr-iconfont mbri-pin" style="color: rgb(231, 0, 19); fill: rgb(231, 0, 19);"></span>
                     </div>
                     <div class="card-box media-body">
-                        <h4 class="card-title py-3 mbr-fonts-style display-5"><strong>
-                            + 35</strong></h4>
+                        <h4 class="card-title py-3 mbr-fonts-style display-5"><strong><?php echo $places; ?></strong></h4>
                         <p class="mbr-text mbr-fonts-style display-7"><strong>
                            Lieux de fabrication</strong></p>
                     </div>
@@ -166,7 +171,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
                         <span class="mbr-iconfont mbri-users" style="color: rgb(231, 0, 19); fill: rgb(231, 0, 19);"></span>
                     </div>
                     <div class="media-body card-box">
-                        <h4 class="card-title py-3 mbr-fonts-style display-5"><strong>+ 100</strong></h4>
+                        <h4 class="card-title py-3 mbr-fonts-style display-5"><strong><?php echo $volunteers; ?></strong></h4>
                         <p class="mbr-text mbr-fonts-style display-7"><strong>Volentaires</strong><br></p>
                     </div>
                 </div>
@@ -178,7 +183,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
                         <span class="mbr-iconfont mbri-delivery" style="color: rgb(231, 0, 19); fill: rgb(231, 0, 19);"></span>
                     </div>
                     <div class="card-box media-body">
-                        <h4 class="card-title py-3 mbr-fonts-style display-5"><strong>+235</strong></h4>
+                        <h4 class="card-title py-3 mbr-fonts-style display-5"><strong><?php echo $delivered_hospitals; ?></strong></h4>
                         <p class="mbr-text mbr-fonts-style display-7"><strong>Hôpital livrés</strong></p>
                     </div>
                 </div>
@@ -367,7 +372,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
 
     <div class="container">
         <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">Bilan de Production&nbsp;</h2>
-        <h3 class="mbr-section-subtitle mbr-fonts-style display-5">Dernier récapitulatif de la production : <?php echo $date ?></h3>
+        <h3 class="mbr-section-subtitle mbr-fonts-style display-5">Dernier récapitulatif de la production : <?php echo $date; ?></h3>
 
         <div class="container pt-4 mt-2">
             <div class="media-container-row">
@@ -378,8 +383,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
                         </div>
 
                         <div class="card-text">
-                            <h3 class="count pt-3 pb-3 mbr-fonts-style display-2">
-                                  50 000</h3>
+                            <h3 class="count pt-3 pb-3 mbr-fonts-style display-2"><?php echo $visors; ?></h3>
                             <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-7">&nbsp;Visières de Protection&nbsp;</h4>
                             <p class="mbr-content-text mbr-fonts-style display-7"></p>
                         </div>
@@ -393,8 +397,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
                             <span class="mbr-iconfont mbri-link" style="color: rgb(231, 0, 19); fill: rgb(231, 0, 19);"></span>
                         </div>
                         <div class="card-text">
-                            <h3 class="count pt-3 pb-3 mbr-fonts-style display-2">
-                                  1000</h3>
+                            <h3 class="count pt-3 pb-3 mbr-fonts-style display-2"><?php echo $connectors; ?></h3>
                             <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-7">Connecteurs / EasyBreath de Décathlon</h4>
                             <p class="mbr-content-text mbr-fonts-style display-7"></p>
                         </div>
@@ -407,8 +410,7 @@ $date = date_format(date_create($data_array["fields"]["Date"]),"d/m/Y");
                             <span class="mbr-iconfont mbri-users" style="color: rgb(231, 0, 19); fill: rgb(231, 0, 19);"></span>
                         </div>
                         <div class="card-text">
-                            <h3 class="count pt-3 pb-3 mbr-fonts-style display-2">
-                                  500</h3>
+                            <h3 class="count pt-3 pb-3 mbr-fonts-style display-2"><?php echo $protective_suits; ?></h3>
                             <h4 class="mbr-content-title mbr-bold mbr-fonts-style display-7">Combinaisons de protection</h4>
                             <p class="mbr-content-text mbr-fonts-style display-7"></p>
                         </div>
