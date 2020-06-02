@@ -25,6 +25,15 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
 ?><!DOCTYPE html>
 <html  >
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164689670-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164689670-1');
+</script>
   <!-- Site made with Mobirise Website Builder v4.12.2, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
