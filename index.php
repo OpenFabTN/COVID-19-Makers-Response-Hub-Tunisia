@@ -2,7 +2,7 @@
 function get_url($url) {
 	$ch = curl_init();
 	curl_setopt($ch,CURLOPT_URL,$url);
-	curl_setopt($ch,CURLOPT_RETURNTRANSFER,1); 
+	curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
 	curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,5);
 	$content = curl_exec($ch);
 	curl_close($ch);
@@ -97,7 +97,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                         Makers</a>
                 </li><li class="nav-item"><a class="nav-link link text-black display-4" href="index.html#clients-4">
                         Partners</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="index.html#content5-1f">
-                        Projets</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="index.html#toggle1-21">FAQ</a></li></ul>
+                        Projets</a></li><li class="nav-item"></li></ul>
             <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="projects.html#content4-1u"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>Wiki</a> <a class="btn btn-sm btn-primary display-4" href="https://join.slack.com/share/zt-ebwsw1ds-jfJyoP_MAyqO8sXhUYD3vw" target="_blank"><span class="mbri-chat mbr-iconfont mbr-iconfont-btn"></span>Slack</a></div>
         </div>
     </nav>
@@ -251,7 +251,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                         <h4 class="card-title mbr-fonts-style display-7">Voulez-vous soutenir l'action ?</h4>
                         <p class="mbr-text mbr-fonts-style display-7">Nous mettons tout cela en oeuvre gratuitement et bénévolement, donc Si vous voulez contribuer à l'effort les sommes récupérées sont/seront utilisées pour rembourser les achats de matières premières et autres dépenses de la communauté.<br></p>
                     </div>
-                    <div class="mbr-section-btn text-center"><a href="page2.html" class="btn btn-primary display-4">En savoir plus</a></div>
+                    <div class="mbr-section-btn text-center"><a href="donations.html" class="btn btn-primary display-4">En savoir plus</a></div>
                 </div>
             </div>
 
@@ -558,7 +558,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
 
 
 
-
+<!--
         <div class="container">
             <div class="media-container-row">
                 <div class="col-12 col-md-8">
@@ -626,7 +626,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                 </div>
             </div>
         </div>
-</section>
+</section> -->
 
 <section class="mbr-section mbr-section__comments" id="facebook-comments-block-f" data-rv-view="1942" style="background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;">
 
@@ -689,7 +689,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
             <div class="col-md-4 col-sm-8">
                 <p class="mb-4 foot-title mbr-fonts-style display-7">
                     About</p>
-                <p class="mbr-text mbr-fonts-style foot-text display-7">"COVID 19 Makers Response Hub Tunisia" is an initiative powered by OpenFab Tunisia in partnership with the local makers and the tech community to encourage the adoption of Open Source collaboration and Open Source Hardware culture.&nbsp;<br></p>
+                <p class="mbr-text mbr-fonts-style foot-text display-7">"Open Source Hardware Tunisia #COVID19" est une initiative d'OpenFab Tunisia en partenariat avec les Makers et la communauté technologique en Tunisie pour encourager l'adoption de la collaboration et de la culture Open Source Hardware.&nbsp;<br></p>
             </div>
             <div class="col-md-4 offset-md-1 col-sm-12">
 
