@@ -6,7 +6,6 @@ section {
   background-color: #eeeeee; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   line-height: 1.5; }
 
@@ -1071,3 +1070,9 @@ body {
 .header1{
   padding-top: 100px;
 }
+
+
+#iframeModal{
+  font-family: 'Open Sans', sans-serif;
+}
+
