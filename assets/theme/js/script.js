@@ -1,4 +1,35 @@
 (function($) {
+        /* create iframe bootstrap modal */
+        var modal_html = '<div class="modal fade" id="iframeModal" tabindex="-1" role="dialog" aria-hidden="true">';
+        modal_html += '<div class="modal-dialog modal-dialog-centered" role="document">';
+        modal_html += '<div class="modal-content">';
+        
+        modal_html += '<div class="modal-header">';
+        modal_html += '<h5 class="modal-title">Modal title</h5>';
+        modal_html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>';
+        modal_html += '</div>';
+        
+        modal_html += '<div class="modal-body">';
+        modal_html += '<iframe width="100%" height="300" style="border:none" src="about:blank"></iframe>';
+        modal_html += '</div>';
+        
+        modal_html += '</div>';
+        modal_html += '</div>';
+        modal_html += '</div>';
+        var iframe_modal = $(modal_html).appendTo("body");
+        
+        /* open airtable forms in bootstrap modal */
+        $("a[href^='https://airtable.com/shr']").click(function(e){
+          e.preventDefault();
+          var modal_title = $(this).text();
+          iframe_modal.find(".modal-title").text(modal_title);
+          var iframe_src = $(this).attr("href").split("airtable.com/shr").join("airtable.com/embed/shr");
+          iframe_modal.find(".modal-body iframe").attr("src",iframe_src);
+          iframe_modal.modal('show');
+          return false;
+        });
+        /**/
+  
         var isBuilder = $('html').hasClass('is-builder');
 
         $.extend($.easing, {
