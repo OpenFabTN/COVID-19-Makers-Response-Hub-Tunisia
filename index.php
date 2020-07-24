@@ -89,16 +89,16 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-black display-4" href="./index.html#content4-17">
+                    <a class="nav-link link text-black display-4" href="./#about">
                         About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link text-black display-4" href="index.html#map1-u">
+                    <a class="nav-link link text-black display-4" href="./#makers">
                         Makers</a>
-                </li><li class="nav-item"><a class="nav-link link text-black display-4" href="index.html#clients-4">
-                        Partners</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="index.html#content5-1f">
+                </li><li class="nav-item"><a class="nav-link link text-black display-4" href="./#partners">
+                        Partners</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="./#projets">
                         Projets</a></li><li class="nav-item"></li></ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="projects.html#content4-1u"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>Wiki</a> <a class="btn btn-sm btn-primary display-4" href="https://join.slack.com/share/zt-ebwsw1ds-jfJyoP_MAyqO8sXhUYD3vw" target="_blank"><span class="mbri-chat mbr-iconfont mbr-iconfont-btn"></span>Slack</a></div>
+            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="./projects.html#docs"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>Wiki</a> <a class="btn btn-sm btn-primary display-4" href="https://join.slack.com/share/zt-ebwsw1ds-jfJyoP_MAyqO8sXhUYD3vw" target="_blank"><span class="mbri-chat mbr-iconfont mbr-iconfont-btn"></span>Slack</a></div>
         </div>
     </nav>
 </section>
@@ -116,7 +116,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                 <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1"><div>Initiatives des Makers Tunisiens contre COVID19&nbsp;<span style="color: inherit; font-size: 4.25rem;"></span></div></h1>
                 <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">&nbsp;Une initiative pour soutenir les efforts de collaboration des Makers &amp; Makerspaces qui se sont mobilisés pour produire des équipements de protection sanitaire d'urgence pour les établissements sanitaires en Tunisie.</h3>
                 <p class="mbr-text align-center pb-3 mbr-fonts-style display-5"></p>
-                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="index.html#content4-17"><span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
+                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-primary display-4" href="./#about"><span class="mbri-down mbr-iconfont mbr-iconfont-btn"></span>
                         EN SAVOIR PLUS</a></div>
             </div>
         </div>
@@ -124,7 +124,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
 
 </section>
 
-<section class="mbr-section content4 cid-rXc7uGGH7E" id="content4-17">
+<section class="mbr-section content4 cid-rXc7uGGH7E" id="about">
 
 
 
@@ -201,7 +201,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
     </div>
 </section>
 
-<section class="map1 cid-rXbBZByp4w" id="map1-u">
+<section class="map1 cid-rXbBZByp4w" id="makers">
 
 
 
@@ -276,7 +276,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
     </div>
 </section>
 
-<section class="mbr-section content5 cid-rXcY4OO5hC mbr-parallax-background" id="content5-1f">
+<section class="mbr-section content5 cid-rXcY4OO5hC mbr-parallax-background" id="projets">
 
 
 
@@ -319,7 +319,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                         <h4 class="card-title mbr-fonts-style display-5">Visières de Protection</h4>
                         <p class="mbr-text mbr-fonts-style display-7"></p>
                         <!--Btn-->
-                        <div class="mbr-section-btn align-center"><a href="projects.html" class="btn btn-warning-outline display-4">
+                        <div class="mbr-section-btn align-center"><a href="./projects.html" class="btn btn-warning-outline display-4">
                                 EN SAVOIR PLUS</a></div>
                     </div>
                 </div>
@@ -334,7 +334,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                         <h4 class="card-title mbr-fonts-style display-5">Connecteurs pour le masque EasyBreath</h4>
                         <p class="mbr-text mbr-fonts-style display-7"></p>
                         <!--Btn-->
-                        <div class="mbr-section-btn align-center"><a href="projects.html" class="btn btn-warning-outline display-4">
+                        <div class="mbr-section-btn align-center"><a href="./projects.html" class="btn btn-warning-outline display-4">
                                 EN SAVOIR PLUS</a></div>
                     </div>
                 </div>
@@ -349,7 +349,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                         <h4 class="card-title mbr-fonts-style display-5"><br>Combinaisons de protection</h4>
                         <p class="mbr-text mbr-fonts-style display-7"></p>
                         <!--Btn-->
-                        <div class="mbr-section-btn align-center"><a href="projects.html" class="btn btn-warning-outline display-4">
+                        <div class="mbr-section-btn align-center"><a href="./projects.html" class="btn btn-warning-outline display-4">
                                 EN SAVOIR PLUS</a></div>
                     </div>
                 </div>
@@ -364,7 +364,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                         <h4 class="card-title mbr-fonts-style display-5">Pousse-seringue électrique</h4>
                         <p class="mbr-text mbr-fonts-style display-7"></p>
                         <!--Btn-->
-                        <div class="mbr-section-btn align-center"><a href="projects.html" class="btn btn-warning-outline display-4">
+                        <div class="mbr-section-btn align-center"><a href="./projects.html" class="btn btn-warning-outline display-4">
                                 EN SAVOIR PLUS</a></div>
                     </div>
                 </div>
@@ -477,7 +477,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
 
 </section>
 
-<section class="clients cid-rW4E3Vpb0o" data-interval="false" id="clients-4">
+<section class="clients cid-rW4E3Vpb0o" data-interval="false" id="partners">
 
 
 
