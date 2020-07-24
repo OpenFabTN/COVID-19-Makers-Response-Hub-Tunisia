@@ -1,0 +1,126 @@
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 100;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/100.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/200.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/300.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/500.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/600.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/800.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/900.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 100;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/100italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 200;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/200italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/300italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 500;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/500italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 600;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/600italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/700italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/800italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 900;
+   src: url('file:///C:/Users/ThinkPad/Documents/GitHub/COVID-19-Makers-Response-Hub-Tunisia/fonts/Montserrat/900italic.ttf') format('truetype');
+}
