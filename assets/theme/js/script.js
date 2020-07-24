@@ -10,7 +10,7 @@
         modal_html += '</div>';
         
         modal_html += '<div class="modal-body">';
-        modal_html += '<iframe width="100%" height="300" style="border:none" src="about:blank"></iframe>';
+        modal_html += '<iframe width="100%" height="600" style="border:none" src="about:blank"></iframe>';
         modal_html += '</div>';
         
         modal_html += '</div>';
