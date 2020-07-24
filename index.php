@@ -39,14 +39,13 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.12.2, mobirise.com">
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="assets/images/index-meta.jpg">
-  <meta property="og:image" content="assets/images/index-meta.jpg">
-  <meta name="twitter:title" content="Home">
+  <meta name="twitter:image:src" content="assets/images/meta.jpg">
+  <meta property="og:image" content="assets/images/meta.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/asset-7-final-symb-244x225.png" type="image/x-icon">
-  <meta name="description" content=""COVID 19 Makers Response Hub Tunisia" is an initiative powered by OpenFab Tunisia in partnership with the local makers and the tech community to encourage the adoption of Open Source collaboration and Open Source Hardware culture. ">
+  <meta name="description" content="COVID 19 Makers Response Hub Tunisia is an initiative powered by OpenFab Tunisia in partnership with the local makers and the tech community to encourage the adoption of Open Source collaboration and Open Source Hardware culture. ">
 
-  <title>Home</title>
+  <title>COVID 19 Makers Response Hub Tunisia | Home</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/facebook-plugin/style.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
