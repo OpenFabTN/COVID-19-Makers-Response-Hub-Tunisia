@@ -750,7 +750,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
   js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-customerchat" theme_color="e70013" page_id="783185208482828"></div>
+<div class="fb-customerchat" theme_color="#e70013" page_id="783185208482828"></div>
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
