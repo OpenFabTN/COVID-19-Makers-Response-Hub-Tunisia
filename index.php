@@ -76,7 +76,7 @@ $protective_suits = $data_array["fields"]["Combinaisons"];
                 <span></span>
             </div>
         </button>
-        <div class="menu-logo col-lg-4">
+        <div class="menu-logo col-lg-4 position-static">
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="http://oshw.tn">
